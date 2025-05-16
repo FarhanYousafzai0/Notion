@@ -36,9 +36,9 @@ export default function RootLayout({
       <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
         <body className="font-sans">
           <Header/>
-         <div className="flex min-h-screen">
+         <div className="flex min-h-dvh">
          <Sidebar/>
-          <div className="flex-1 p-4 bg-blue-600 ">
+          <div className="flex-1 p-4 bg-blue-600 rounded ">
             
           {children}
           </div>
